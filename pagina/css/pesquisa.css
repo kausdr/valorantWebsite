@@ -1,0 +1,61 @@
+.pesquisa{
+    position: absolute;
+    top: 45px;
+    left: 10px;
+    z-index: 1;
+}
+
+/*ao clicar abre*/
+ul.lista-agentes{
+    list-style: none;
+    top: 20px;
+    left: 35px;
+    width: 200px;
+    display: none;
+}
+
+.lista-agentes li{
+    background-color: white;
+    padding: 5px 5px;
+}
+
+.lista-agentes li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*ao clicar abre*/
+#pesquisar-agente{
+    background-color: white;
+    font-family: 'Vava Regular';
+    font-size: 1.2em;
+    position: absolute;
+    top: 2px;
+    left: 40px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.425);
+    border: none;
+    height: 25px;
+    width: 200px;
+    padding: 0px 5px;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+#pesquisar-agente::placeholder{
+    color: rgba(88, 88, 88, 0.822);
+}
+
+#pesquisarbt{
+    width: 32px;
+    height: 32px;
+    background-image: url('../../imgs/search.png');
+    background-size: cover;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.pesquisar-agente-ativo{
+    transform: translateX(-40px);
+    opacity: 0;
+}
