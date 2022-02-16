@@ -1,0 +1,39 @@
+.agent-name{
+    width: 800PX;
+    top: 25px;
+    font-family: Tungsten;
+    font-size: 7em;
+    line-height: 120px;
+    color: #C73640;
+}
+.agent{
+    width: 1080px;
+    margin: auto;
+    height: 113vh;
+    position: relative;
+}
+
+@media only screen and (max-width: 412px){
+
+    .agent-name{
+        line-height: 45px;
+        font-size: 3em;  
+        top: 60px;
+
+    }
+
+    
+}    
+/*
+<div class='container'>
+<div class="agent">
+<div>
+    <ul class='agent-name'>
+        <p>PHOENIX</p>
+        <p>PHOENIX</p>
+        <p>PHOENIX</p>
+        <p>PHOENIX</p>
+        <p>PHOENIX</p>
+    </ul>
+</div>
+</div>*/

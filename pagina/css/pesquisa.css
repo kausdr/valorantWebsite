@@ -7,11 +7,13 @@
 
 /*ao clicar abre*/
 ul.lista-agentes{
-    list-style: none;
+    position: absolute;
+    list-style-type: none;
     top: 20px;
     left: 35px;
-    width: 200px;
-    display: none;
+    width: 210px;
+    z-index: -2;
+    transition: 0.5s;
 }
 
 .lista-agentes li{
@@ -58,4 +60,10 @@ ul.lista-agentes{
 .pesquisar-agente-ativo{
     transform: translateX(-40px);
     opacity: 0;
+    pointer-events: none;
+}
+
+.hide{
+    display: none;
+
 }
