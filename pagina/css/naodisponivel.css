@@ -19,10 +19,16 @@
         line-height: 45px;
         font-size: 3em;  
         top: 60px;
-
+        left: 0px;
+        width: 330px;
     }
 
-    
+    .agent{
+        width: 330px;
+        margin: auto;
+        height: 113vh;
+        position: relative;
+    }
 }    
 /*
 <div class='container'>
